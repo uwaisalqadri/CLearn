@@ -10,6 +10,7 @@
 		9114B91628C51ED40055F4FC /* string_validation.c in Sources */ = {isa = PBXBuildFile; fileRef = 9114B91528C51ED40055F4FC /* string_validation.c */; };
 		9162CD6828B8F83500943C50 /* variables_and_types.c in Sources */ = {isa = PBXBuildFile; fileRef = 9162CD6728B8F83500943C50 /* variables_and_types.c */; };
 		9162CD6A28B8F9C100943C50 /* loops_and_arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 9162CD6928B8F9C100943C50 /* loops_and_arrays.c */; };
+		917C0A9428C77D7800FB9123 /* group_assignment.c in Sources */ = {isa = PBXBuildFile; fileRef = 917C0A9328C77D7800FB9123 /* group_assignment.c */; };
 		917C228528C5F63A004DA21C /* number_operation.c in Sources */ = {isa = PBXBuildFile; fileRef = 917C228428C5F63A004DA21C /* number_operation.c */; };
 		91D77B8128B7A06300CF0771 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D77B8028B7A06300CF0771 /* main.c */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		9114B91528C51ED40055F4FC /* string_validation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string_validation.c; sourceTree = "<group>"; };
 		9162CD6728B8F83500943C50 /* variables_and_types.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = variables_and_types.c; sourceTree = "<group>"; };
 		9162CD6928B8F9C100943C50 /* loops_and_arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = loops_and_arrays.c; sourceTree = "<group>"; };
+		917C0A9328C77D7800FB9123 /* group_assignment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = group_assignment.c; sourceTree = "<group>"; };
 		917C228428C5F63A004DA21C /* number_operation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = number_operation.c; sourceTree = "<group>"; };
 		91D77B7D28B7A06300CF0771 /* Basic-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Basic-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D77B8028B7A06300CF0771 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			children = (
 				9114B91528C51ED40055F4FC /* string_validation.c */,
 				917C228428C5F63A004DA21C /* number_operation.c */,
+				917C0A9328C77D7800FB9123 /* group_assignment.c */,
 			);
 			path = "Tugas-BOL";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				917C228528C5F63A004DA21C /* number_operation.c in Sources */,
 				9114B91628C51ED40055F4FC /* string_validation.c in Sources */,
 				9162CD6828B8F83500943C50 /* variables_and_types.c in Sources */,
+				917C0A9428C77D7800FB9123 /* group_assignment.c in Sources */,
 				9162CD6A28B8F9C100943C50 /* loops_and_arrays.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

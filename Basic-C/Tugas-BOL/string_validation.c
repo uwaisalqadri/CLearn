@@ -9,11 +9,6 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
-  printf("Hello World \n");
-  return 0;
-}
-
 int string_validation() {
   char string[100] = "";
   char c;
