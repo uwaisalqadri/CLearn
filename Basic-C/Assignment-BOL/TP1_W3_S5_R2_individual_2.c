@@ -17,5 +17,37 @@
  */
 
 int main() {
+  float price, discount_amount, discounted_price;
+
+  printf("Masukkan Harga Barang untuk menentukan diskon: Rp "); scanf("%f", &price);
+
+  while (price < 350.000) {
+    if (price <= 200.000) {
+      printf("Tidak potongan \n");
+      break;
+    }
+
+    if (price > 200.000 && price <= 250.000) {
+      discount_amount = (5 * price) / 100;
+      discounted_price = (price - discount_amount);
+      printf("Potongan 5%%, Harga Diskon: Rp %3.3f \n", discounted_price);
+      break;
+    }
+
+    if (price > 250.000 && price <= 300.000) {
+      discount_amount = (10 * price) / 100;
+      discounted_price = (price - discount_amount);
+      printf("Potongan 10%%, Harga Diskon: Rp %3.3f \n", discounted_price);
+      break;
+    }
+
+    if (price > 300.000 && price <= 350.000) {
+      discount_amount = (15 * price) / 100;
+      discounted_price = (price - discount_amount);
+      printf("Potongan 15%%, Harga Diskon: Rp %3.3f \n", discounted_price);
+      break;
+    }
+  }
+
   return 0;
 }
