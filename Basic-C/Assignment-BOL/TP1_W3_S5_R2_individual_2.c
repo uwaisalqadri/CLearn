@@ -16,7 +16,7 @@
     - 15% jika total beli lebih dari Rp300.000 sd Rp 350.000
  */
 
-int main() {
+int check_discount() {
   float price, discount_amount, discounted_price;
 
   printf("Masukkan Harga Barang untuk menentukan diskon: Rp "); scanf("%f", &price);
