@@ -42,7 +42,7 @@ struct Employee {
 
 void print_prettified_employee(struct Employee emp, char* category);
 
-int main() {
+int employee_salary() {
 
   struct Employee employee;
 
