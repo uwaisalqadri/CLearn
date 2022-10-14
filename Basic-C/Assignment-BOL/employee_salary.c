@@ -53,10 +53,10 @@ int main() {
   int working_hours = 0;
   int total_overtime_bonus = 0;
 
-  printf("Masukkan Nomor Induk Pegawai = "); scanf("%s", &employee.id);
-  printf("Masukkan Nama Pegawai = "); scanf("%s", &employee.name);
-  printf("Masukkan Alamat Pegawai = "); scanf("%s", &employee.address);
-  printf("Masukkan No. HP Pegawai = "); scanf("%s", &employee.phone);
+  printf("Masukkan Nomor Induk Pegawai = "); scanf("%s", employee.id);
+  printf("Masukkan Nama Pegawai = "); scanf("%s", employee.name);
+  printf("Masukkan Alamat Pegawai = "); scanf("%s", employee.address);
+  printf("Masukkan No. HP Pegawai = "); scanf("%s", employee.phone);
 
   printf("Staff D1 = 10\n");
   printf("Staff D2 = 20\n");
@@ -100,6 +100,6 @@ int main() {
 
 void print_prettified_employee(struct Employee emp, char* category) {
   printf("\n\n\n==========================================================================\n");
-  printf("Nomor Induk Pegawai: %s \nNama Pegawai: %s \nAlamat: %s \nNo.Hp: %s \nKategori: %s \n", &emp.id, &emp.name, &emp.address, &emp.phone, category);
+  printf("Nomor Induk Pegawai: %s \nNama Pegawai: %s \nAlamat: %s \nNo.Hp: %s \nKategori: %s \n", emp.id, emp.name, emp.address, emp.phone, category);
   printf("==========================================================================\n");
 }
