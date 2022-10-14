@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		9114B91628C51ED40055F4FC /* string_validation.c in Sources */ = {isa = PBXBuildFile; fileRef = 9114B91528C51ED40055F4FC /* string_validation.c */; };
+		91292B0628E27E6D0016F16D /* array_integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 91292B0528E27E6D0016F16D /* array_integer.c */; };
 		913065FF28D89F0D0042F362 /* simple_loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 913065FE28D89F0D0042F362 /* simple_loop.c */; };
 		9130660128D8A3670042F362 /* simple_do_while.c in Sources */ = {isa = PBXBuildFile; fileRef = 9130660028D8A3670042F362 /* simple_do_while.c */; };
 		913123F928D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 913123F828D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c */; };
 		913123FB28D006CC00B012D1 /* TP1_W3_S5_R2_individual_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 913123FA28D006CC00B012D1 /* TP1_W3_S5_R2_individual_2.c */; };
+		9138A21228E2028400BF2A57 /* replace_space_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 9138A21128E2028400BF2A57 /* replace_space_string.c */; };
 		9162CD6828B8F83500943C50 /* variables_and_types.c in Sources */ = {isa = PBXBuildFile; fileRef = 9162CD6728B8F83500943C50 /* variables_and_types.c */; };
 		9162CD6A28B8F9C100943C50 /* loops_and_arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 9162CD6928B8F9C100943C50 /* loops_and_arrays.c */; };
 		917C0A9428C77D7800FB9123 /* group_assignment.c in Sources */ = {isa = PBXBuildFile; fileRef = 917C0A9328C77D7800FB9123 /* group_assignment.c */; };
 		917C228528C5F63A004DA21C /* number_operation.c in Sources */ = {isa = PBXBuildFile; fileRef = 917C228428C5F63A004DA21C /* number_operation.c */; };
+		91A1A8A328ED01D8001AFDF7 /* parameter_passing.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A1A8A228ED01D8001AFDF7 /* parameter_passing.c */; };
+		91AD45AC28F5959800505322 /* employee_salary.c in Sources */ = {isa = PBXBuildFile; fileRef = 91AD45AB28F5959800505322 /* employee_salary.c */; };
 		91D77B8128B7A06300CF0771 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D77B8028B7A06300CF0771 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -33,14 +37,18 @@
 
 /* Begin PBXFileReference section */
 		9114B91528C51ED40055F4FC /* string_validation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string_validation.c; sourceTree = "<group>"; };
+		91292B0528E27E6D0016F16D /* array_integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array_integer.c; sourceTree = "<group>"; };
 		913065FE28D89F0D0042F362 /* simple_loop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simple_loop.c; sourceTree = "<group>"; };
 		9130660028D8A3670042F362 /* simple_do_while.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simple_do_while.c; sourceTree = "<group>"; };
 		913123F828D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TP1_W3_S5_R2_individual_1.c; sourceTree = "<group>"; };
 		913123FA28D006CC00B012D1 /* TP1_W3_S5_R2_individual_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TP1_W3_S5_R2_individual_2.c; sourceTree = "<group>"; };
+		9138A21128E2028400BF2A57 /* replace_space_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = replace_space_string.c; sourceTree = "<group>"; };
 		9162CD6728B8F83500943C50 /* variables_and_types.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = variables_and_types.c; sourceTree = "<group>"; };
 		9162CD6928B8F9C100943C50 /* loops_and_arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = loops_and_arrays.c; sourceTree = "<group>"; };
 		917C0A9328C77D7800FB9123 /* group_assignment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = group_assignment.c; sourceTree = "<group>"; };
 		917C228428C5F63A004DA21C /* number_operation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = number_operation.c; sourceTree = "<group>"; };
+		91A1A8A228ED01D8001AFDF7 /* parameter_passing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parameter_passing.c; sourceTree = "<group>"; };
+		91AD45AB28F5959800505322 /* employee_salary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = employee_salary.c; sourceTree = "<group>"; };
 		91D77B7D28B7A06300CF0771 /* Basic-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Basic-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D77B8028B7A06300CF0771 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +71,9 @@
 				917C228428C5F63A004DA21C /* number_operation.c */,
 				913065FE28D89F0D0042F362 /* simple_loop.c */,
 				9130660028D8A3670042F362 /* simple_do_while.c */,
+				9138A21128E2028400BF2A57 /* replace_space_string.c */,
+				91292B0528E27E6D0016F16D /* array_integer.c */,
+				91A1A8A228ED01D8001AFDF7 /* parameter_passing.c */,
 			);
 			path = "Forum-BOL";
 			sourceTree = "<group>";
@@ -70,6 +81,7 @@
 		913123F728D0021500B012D1 /* Assignment-BOL */ = {
 			isa = PBXGroup;
 			children = (
+				91AD45AB28F5959800505322 /* employee_salary.c */,
 				917C0A9328C77D7800FB9123 /* group_assignment.c */,
 				913123F828D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c */,
 				913123FA28D006CC00B012D1 /* TP1_W3_S5_R2_individual_2.c */,
@@ -162,7 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91292B0628E27E6D0016F16D /* array_integer.c in Sources */,
+				91A1A8A328ED01D8001AFDF7 /* parameter_passing.c in Sources */,
 				913123F928D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c in Sources */,
+				9138A21228E2028400BF2A57 /* replace_space_string.c in Sources */,
 				913065FF28D89F0D0042F362 /* simple_loop.c in Sources */,
 				91D77B8128B7A06300CF0771 /* main.c in Sources */,
 				917C228528C5F63A004DA21C /* number_operation.c in Sources */,
@@ -172,6 +187,7 @@
 				913123FB28D006CC00B012D1 /* TP1_W3_S5_R2_individual_2.c in Sources */,
 				917C0A9428C77D7800FB9123 /* group_assignment.c in Sources */,
 				9162CD6A28B8F9C100943C50 /* loops_and_arrays.c in Sources */,
+				91AD45AC28F5959800505322 /* employee_salary.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

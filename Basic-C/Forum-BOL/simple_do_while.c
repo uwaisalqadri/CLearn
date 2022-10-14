@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main() {
+int simple_do_while() {
   int total = 100, index = 0;
 
   do {
