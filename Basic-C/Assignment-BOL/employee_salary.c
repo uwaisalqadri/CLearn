@@ -42,7 +42,7 @@ struct Employee {
 
 void print_prettified_employee(struct Employee emp, char* category);
 
-int employee_salary() {
+int main() {
 
   struct Employee employee;
 
@@ -54,8 +54,8 @@ int employee_salary() {
   int total_overtime_bonus = 0;
 
   printf("Masukkan Nomor Induk Pegawai = "); scanf("%s", employee.id);
-  printf("Masukkan Nama Pegawai = "); scanf("%s", employee.name);
-  printf("Masukkan Alamat Pegawai = "); scanf("%s", employee.address);
+  printf("Masukkan Nama Pegawai = "); scanf(" %[^\n]s", employee.name);
+  printf("Masukkan Alamat Pegawai = "); scanf(" %[^\n]s", employee.address);
   printf("Masukkan No. HP Pegawai = "); scanf("%s", employee.phone);
 
   printf("Staff D1 = 10\n");
