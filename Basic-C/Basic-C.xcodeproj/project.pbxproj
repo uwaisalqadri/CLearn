@@ -16,6 +16,7 @@
 		9138A21228E2028400BF2A57 /* replace_space_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 9138A21128E2028400BF2A57 /* replace_space_string.c */; };
 		9162CD6828B8F83500943C50 /* variables_and_types.c in Sources */ = {isa = PBXBuildFile; fileRef = 9162CD6728B8F83500943C50 /* variables_and_types.c */; };
 		9162CD6A28B8F9C100943C50 /* loops_and_arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 9162CD6928B8F9C100943C50 /* loops_and_arrays.c */; };
+		9171DB7029002D0E00A6E7FB /* array_search_index.c in Sources */ = {isa = PBXBuildFile; fileRef = 9171DB6F29002D0E00A6E7FB /* array_search_index.c */; };
 		917C0A9428C77D7800FB9123 /* group_assignment.c in Sources */ = {isa = PBXBuildFile; fileRef = 917C0A9328C77D7800FB9123 /* group_assignment.c */; };
 		917C228528C5F63A004DA21C /* number_operation.c in Sources */ = {isa = PBXBuildFile; fileRef = 917C228428C5F63A004DA21C /* number_operation.c */; };
 		91A1A8A328ED01D8001AFDF7 /* parameter_passing.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A1A8A228ED01D8001AFDF7 /* parameter_passing.c */; };
@@ -45,6 +46,7 @@
 		9138A21128E2028400BF2A57 /* replace_space_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = replace_space_string.c; sourceTree = "<group>"; };
 		9162CD6728B8F83500943C50 /* variables_and_types.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = variables_and_types.c; sourceTree = "<group>"; };
 		9162CD6928B8F9C100943C50 /* loops_and_arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = loops_and_arrays.c; sourceTree = "<group>"; };
+		9171DB6F29002D0E00A6E7FB /* array_search_index.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array_search_index.c; sourceTree = "<group>"; };
 		917C0A9328C77D7800FB9123 /* group_assignment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = group_assignment.c; sourceTree = "<group>"; };
 		917C228428C5F63A004DA21C /* number_operation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = number_operation.c; sourceTree = "<group>"; };
 		91A1A8A228ED01D8001AFDF7 /* parameter_passing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parameter_passing.c; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				917C0A9328C77D7800FB9123 /* group_assignment.c */,
 				913123F828D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c */,
 				913123FA28D006CC00B012D1 /* TP1_W3_S5_R2_individual_2.c */,
+				9171DB6F29002D0E00A6E7FB /* array_search_index.c */,
 			);
 			path = "Assignment-BOL";
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9171DB7029002D0E00A6E7FB /* array_search_index.c in Sources */,
 				91292B0628E27E6D0016F16D /* array_integer.c in Sources */,
 				91A1A8A328ED01D8001AFDF7 /* parameter_passing.c in Sources */,
 				913123F928D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c in Sources */,
@@ -309,7 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SM8JGRFPQU;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
