@@ -7,22 +7,28 @@
 
 #include <stdio.h>
 
-void print_reversed_array(int arr[], int n) {
-  int temp;
-  for(int i = 0; i<n/2; i++) {
-    temp = arr[i];
-    arr[i] = arr[n-i-1];
-    arr[n-i-1] = temp;
+int* sort_array(int size, int* arr) {
+
+  int i, j, tmp;
+
+  for(i=0; i<size; i++) {
+    for(j=i+1; j<size; j++) {
+      if(arr[j] <arr[i]) {
+        tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+      }
+    }
   }
-  for(int i = 0; i < n; i++) {
-    printf("%d ", arr[i]);
-  }
+
+  return arr;
 }
 
 int main() {
   int length;
   int query_number;
   int is_number_not_found = 1;
+  int* sorted_numbers;
 
   printf("Input jumlah elemen Array: "); scanf("%d", &length);
 
@@ -36,8 +42,10 @@ int main() {
 
   printf("Input angka yang akan dicari: "); scanf(" %d", &query_number);
 
+  sorted_numbers = sort_array(length, numbers);
+
   for (int i = 0; i < length; i++) {
-    if (numbers[i] == query_number) {
+    if (sorted_numbers[i] == query_number) {
       printf("Angka ditemukan pada index ke - %d \n", i);
       is_number_not_found = 0; // false
       break;
@@ -51,7 +59,7 @@ int main() {
 
   printf("Urutan angka yang diinputkan : ");
 
-  print_reversed_array(numbers, length);
+  for (int i = 0; i < length; i++) printf("%d ", sorted_numbers[i]);
 
   printf("\n\n");
 
