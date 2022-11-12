@@ -14,11 +14,13 @@
 		913123F928D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 913123F828D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c */; };
 		913123FB28D006CC00B012D1 /* TP1_W3_S5_R2_individual_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 913123FA28D006CC00B012D1 /* TP1_W3_S5_R2_individual_2.c */; };
 		9138A21228E2028400BF2A57 /* replace_space_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 9138A21128E2028400BF2A57 /* replace_space_string.c */; };
+		913E5136290DF9FA002B43F6 /* file_sample.c in Sources */ = {isa = PBXBuildFile; fileRef = 913E5135290DF9FA002B43F6 /* file_sample.c */; };
 		9162CD6828B8F83500943C50 /* variables_and_types.c in Sources */ = {isa = PBXBuildFile; fileRef = 9162CD6728B8F83500943C50 /* variables_and_types.c */; };
 		9162CD6A28B8F9C100943C50 /* loops_and_arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 9162CD6928B8F9C100943C50 /* loops_and_arrays.c */; };
 		9171DB7029002D0E00A6E7FB /* array_search_index.c in Sources */ = {isa = PBXBuildFile; fileRef = 9171DB6F29002D0E00A6E7FB /* array_search_index.c */; };
 		917C0A9428C77D7800FB9123 /* group_assignment.c in Sources */ = {isa = PBXBuildFile; fileRef = 917C0A9328C77D7800FB9123 /* group_assignment.c */; };
 		917C228528C5F63A004DA21C /* number_operation.c in Sources */ = {isa = PBXBuildFile; fileRef = 917C228428C5F63A004DA21C /* number_operation.c */; };
+		918670AB291FEF63007108F3 /* half_lives_radiocative.c in Sources */ = {isa = PBXBuildFile; fileRef = 918670AA291FEF63007108F3 /* half_lives_radiocative.c */; };
 		91A1A8A328ED01D8001AFDF7 /* parameter_passing.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A1A8A228ED01D8001AFDF7 /* parameter_passing.c */; };
 		91AD45AC28F5959800505322 /* employee_salary.c in Sources */ = {isa = PBXBuildFile; fileRef = 91AD45AB28F5959800505322 /* employee_salary.c */; };
 		91D77B8128B7A06300CF0771 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D77B8028B7A06300CF0771 /* main.c */; };
@@ -44,11 +46,13 @@
 		913123F828D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TP1_W3_S5_R2_individual_1.c; sourceTree = "<group>"; };
 		913123FA28D006CC00B012D1 /* TP1_W3_S5_R2_individual_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TP1_W3_S5_R2_individual_2.c; sourceTree = "<group>"; };
 		9138A21128E2028400BF2A57 /* replace_space_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = replace_space_string.c; sourceTree = "<group>"; };
+		913E5135290DF9FA002B43F6 /* file_sample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file_sample.c; sourceTree = "<group>"; };
 		9162CD6728B8F83500943C50 /* variables_and_types.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = variables_and_types.c; sourceTree = "<group>"; };
 		9162CD6928B8F9C100943C50 /* loops_and_arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = loops_and_arrays.c; sourceTree = "<group>"; };
 		9171DB6F29002D0E00A6E7FB /* array_search_index.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array_search_index.c; sourceTree = "<group>"; };
 		917C0A9328C77D7800FB9123 /* group_assignment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = group_assignment.c; sourceTree = "<group>"; };
 		917C228428C5F63A004DA21C /* number_operation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = number_operation.c; sourceTree = "<group>"; };
+		918670AA291FEF63007108F3 /* half_lives_radiocative.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = half_lives_radiocative.c; sourceTree = "<group>"; };
 		91A1A8A228ED01D8001AFDF7 /* parameter_passing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parameter_passing.c; sourceTree = "<group>"; };
 		91AD45AB28F5959800505322 /* employee_salary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = employee_salary.c; sourceTree = "<group>"; };
 		91D77B7D28B7A06300CF0771 /* Basic-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Basic-C"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +92,8 @@
 				913123F828D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c */,
 				913123FA28D006CC00B012D1 /* TP1_W3_S5_R2_individual_2.c */,
 				9171DB6F29002D0E00A6E7FB /* array_search_index.c */,
+				913E5135290DF9FA002B43F6 /* file_sample.c */,
+				918670AA291FEF63007108F3 /* half_lives_radiocative.c */,
 			);
 			path = "Assignment-BOL";
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 				917C0A9428C77D7800FB9123 /* group_assignment.c in Sources */,
 				9162CD6A28B8F9C100943C50 /* loops_and_arrays.c in Sources */,
 				91AD45AC28F5959800505322 /* employee_salary.c in Sources */,
+				918670AB291FEF63007108F3 /* half_lives_radiocative.c in Sources */,
+				913E5136290DF9FA002B43F6 /* file_sample.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
