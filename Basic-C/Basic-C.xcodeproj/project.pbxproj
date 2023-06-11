@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9114B91628C51ED40055F4FC /* string_validation.c in Sources */ = {isa = PBXBuildFile; fileRef = 9114B91528C51ED40055F4FC /* string_validation.c */; };
+		9124144D29270DD00036A292 /* JustCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124144C29270DD00036A292 /* JustCode.swift */; };
 		91292B0628E27E6D0016F16D /* array_integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 91292B0528E27E6D0016F16D /* array_integer.c */; };
 		913065FF28D89F0D0042F362 /* simple_loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 913065FE28D89F0D0042F362 /* simple_loop.c */; };
 		9130660128D8A3670042F362 /* simple_do_while.c in Sources */ = {isa = PBXBuildFile; fileRef = 9130660028D8A3670042F362 /* simple_do_while.c */; };
@@ -24,6 +25,7 @@
 		91A1A8A328ED01D8001AFDF7 /* parameter_passing.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A1A8A228ED01D8001AFDF7 /* parameter_passing.c */; };
 		91AD45AC28F5959800505322 /* employee_salary.c in Sources */ = {isa = PBXBuildFile; fileRef = 91AD45AB28F5959800505322 /* employee_salary.c */; };
 		91D77B8128B7A06300CF0771 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D77B8028B7A06300CF0771 /* main.c */; };
+		CEDEA7372A3573FB000ADD58 /* PakAndiGrocery.c in Sources */ = {isa = PBXBuildFile; fileRef = CEDEA7362A3573FB000ADD58 /* PakAndiGrocery.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		9114B91528C51ED40055F4FC /* string_validation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string_validation.c; sourceTree = "<group>"; };
+		9124144C29270DD00036A292 /* JustCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCode.swift; sourceTree = "<group>"; };
 		91292B0528E27E6D0016F16D /* array_integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array_integer.c; sourceTree = "<group>"; };
 		913065FE28D89F0D0042F362 /* simple_loop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simple_loop.c; sourceTree = "<group>"; };
 		9130660028D8A3670042F362 /* simple_do_while.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simple_do_while.c; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 		91AD45AB28F5959800505322 /* employee_salary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = employee_salary.c; sourceTree = "<group>"; };
 		91D77B7D28B7A06300CF0771 /* Basic-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Basic-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D77B8028B7A06300CF0771 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CEDEA7362A3573FB000ADD58 /* PakAndiGrocery.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PakAndiGrocery.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 		913123F728D0021500B012D1 /* Assignment-BOL */ = {
 			isa = PBXGroup;
 			children = (
+				CEDEA7342A3573D0000ADD58 /* LinkedList */,
 				91AD45AB28F5959800505322 /* employee_salary.c */,
 				917C0A9328C77D7800FB9123 /* group_assignment.c */,
 				913123F828D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c */,
@@ -94,6 +99,7 @@
 				9171DB6F29002D0E00A6E7FB /* array_search_index.c */,
 				913E5135290DF9FA002B43F6 /* file_sample.c */,
 				918670AA291FEF63007108F3 /* half_lives_radiocative.c */,
+				9124144C29270DD00036A292 /* JustCode.swift */,
 			);
 			path = "Assignment-BOL";
 			sourceTree = "<group>";
@@ -124,6 +130,22 @@
 				9162CD6928B8F9C100943C50 /* loops_and_arrays.c */,
 			);
 			path = "Basic-C";
+			sourceTree = "<group>";
+		};
+		CEDEA7342A3573D0000ADD58 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				CEDEA7352A3573D9000ADD58 /* DoubleLinkedList */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		CEDEA7352A3573D9000ADD58 /* DoubleLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				CEDEA7362A3573FB000ADD58 /* PakAndiGrocery.c */,
+			);
+			path = DoubleLinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +179,7 @@
 				TargetAttributes = {
 					91D77B7C28B7A06300CF0771 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -187,6 +210,7 @@
 				91292B0628E27E6D0016F16D /* array_integer.c in Sources */,
 				91A1A8A328ED01D8001AFDF7 /* parameter_passing.c in Sources */,
 				913123F928D0031A00B012D1 /* TP1_W3_S5_R2_individual_1.c in Sources */,
+				CEDEA7372A3573FB000ADD58 /* PakAndiGrocery.c in Sources */,
 				9138A21228E2028400BF2A57 /* replace_space_string.c in Sources */,
 				913065FF28D89F0D0042F362 /* simple_loop.c in Sources */,
 				91D77B8128B7A06300CF0771 /* main.c in Sources */,
@@ -199,6 +223,7 @@
 				9162CD6A28B8F9C100943C50 /* loops_and_arrays.c in Sources */,
 				91AD45AC28F5959800505322 /* employee_salary.c in Sources */,
 				918670AB291FEF63007108F3 /* half_lives_radiocative.c in Sources */,
+				9124144D29270DD00036A292 /* JustCode.swift in Sources */,
 				913E5136290DF9FA002B43F6 /* file_sample.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,20 +345,35 @@
 		91D77B8528B7A06300CF0771 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		91D77B8628B7A06300CF0771 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SM8JGRFPQU;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

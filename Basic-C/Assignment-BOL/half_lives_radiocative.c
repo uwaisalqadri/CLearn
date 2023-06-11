@@ -21,7 +21,7 @@ loop 0.5 in hasil1 = hasil2
 hasil2 * No = Nt
 */
 
-int main() {
+int half_lives_radioactive() {
   int pangkat;
   float hasil2;
   float no, t, T;
